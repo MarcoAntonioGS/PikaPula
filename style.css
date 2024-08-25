@@ -72,3 +72,9 @@ to {
 
 
 }
+.instructions {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
