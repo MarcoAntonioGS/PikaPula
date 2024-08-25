@@ -24,6 +24,12 @@ const loop = setInterval(() => {
     
     pikachu.style.animation = 'none';
     pikachu.style.bottom = `${pikachuPosition}px`;
+    .instructions {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
     
     [].slice.apply(document.images).filter(is_gif_image).map(freeze_gif);
 
